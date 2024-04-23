@@ -16,7 +16,7 @@ See [the Mozilla's Bugzilla Issue](https://bugzilla.mozilla.org/show_bug.cgi?id=
 
 ## Expected result
 
-1. The web page reloads and the background color is the color that was set manually in step 4
+1. The web page reloads and the background color is the color that was set manually in step 6
 
 ## Actual result
 
