@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="styles.css" rel="stylesheet" />
+    <script>
+        async function refresh() {
+            fetch("/styles.css", {
+                headers: {
+                    'cache-control': 'max-age=0'
+                }
+            }).then(() => {
+                // Known workaround: `window.location.reload(true)`
+                window.location.reload()
+            })
+        }
+    </script>
+</head>
+
+<body>
+    <button id="refresh" onclick="refresh()">Refresh styles.css</button>
+</body>
+
+</html>
