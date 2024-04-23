@@ -6,8 +6,8 @@ See [the Mozilla's Bugzilla Issue](https://bugzilla.mozilla.org/show_bug.cgi?id=
 
 ## Steps to reproduce
 
-1. `git clone <this repo>`
-2. `cd <this repo>`
+1. `git clone https://github.com/c-kunz/firefox-issue-1851349`
+2. `cd firefox-issue-1851349`
 3. `npm install`
 4. `node index.js`
 5. Visit [http://localhost:3000](http://localhost:3000)
